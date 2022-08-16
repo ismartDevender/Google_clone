@@ -1,0 +1,39 @@
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    background-color: white;
+    padding: 5px;
+    color: gray;
+}
+.left_header{
+    display: flex;
+    align-items: center;
+}
+.link:hover{
+    text-decoration: underline;
+    
+}
+.link{
+    margin : 5px 15px;
+    font-size:20px;
+    cursor: pointer;
+}
+.right_header{
+    display: flex;
+    align-items: center;
+    right: 0;
+    /* justify-content: end; */
+}
+
+.userimage img:hover{
+   transform:scale(1.1);
+}
+.viewgrid{
+   padding: 10px;
+   background-color: grey;
+}
+.btn{
+    background-color: #ccc;
+}
